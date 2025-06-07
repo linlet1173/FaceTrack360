@@ -28,7 +28,8 @@ This project performs real-time and static image-based face pose estimation usin
     ├── main.py                  # Real-time webcam estimation
     ├── image_input.py           # Static image analysis
     ├── utils.py                 # Utility functions (3D model points, drawing axes, etc.)
-    ├── recordings/              # Saved video output recordings (auto-created)
+    ├── requirements.txt
+    ├── recordings/              # Saved video output recordings (auto-created) 
     ├── output_images/           # Saved output images (auto-created)
     ├── test.jpg                 # Example input images ( test1.jpg, test2.jpg, test3.jpg)
     └── README.md                # Project description 
@@ -81,6 +82,7 @@ Output of test3.jpg from image_input.py showing pose and state analysis of multi
 - Uses MediaPipe FaceMesh with refined landmarks for improved iris and lip detection
 - Gaze and eye/mouth state are estimated heuristically and may vary based on pose and resolution.
 - Labels dynamically positioned to avoid overlap on the side of the frame
+- The auto created output recordings folder cannot be uploaded due to larger file size. 
 
 ## License
 This project is open-source and free to use for academic or research purposes. License: MIT
