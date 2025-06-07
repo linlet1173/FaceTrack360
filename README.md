@@ -1,4 +1,4 @@
-## FaceTrack360: Multi-Face Pose and State Detection System 
+# FaceTrack360: Multi-Face Pose and State Detection System 
 
 ## Description
 
@@ -8,20 +8,20 @@ FaceTrack360 is a real-time computer vision system that detects multiple faces f
 
 ### Main Features (Real-Time via main.py)
 
-Webcam-based live face tracking
-3D face pose estimation (Yaw, Pitch, Roll)
-Eye state detection (based on Eye Aspect Ratio)
-~ Mouth state detection (based on lip distance)
-~ Gaze direction estimation (Left, Center, Right)
-~ Start/Stop video recording with Spacebar
-~ On-screen recording timer
-~ Multi-face support (up to 5 faces)
+- Webcam-based live face tracking
+- 3D face pose estimation (Yaw, Pitch, Roll)
+- Eye state detection (based on Eye Aspect Ratio)
+- Mouth state detection (based on lip distance)
+- Gaze direction estimation (Left, Center, Right)
+- Start/Stop video recording with Spacebar
+- On-screen recording timer
+- Multi-face support (up to 5 faces)
 
 ### Static Image Support (image_input.py)
-~ Supports any image file (.jpg, .png)
-~ Detects multiple faces
-~ Calculates pose, eye/mouth state, gaze direction
-~ Automatically saves annotated output image in output_images/
+- Supports any image file (.jpg, .png)
+- Detects multiple faces
+- Calculates pose, eye/mouth state, gaze direction
+- Automatically saves annotated output image in output_images/
 
 ## Folder Structure
     term-project-cv/
