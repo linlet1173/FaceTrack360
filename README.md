@@ -3,6 +3,7 @@
 ## Description
 
 This project performs real-time and static image-based face pose estimation using MediaPipe and OpenCV. It includes pose angle calculation (yaw, pitch, roll), eye state detection (open/closed), mouth state detection (open/closed), and gaze estimation (left, right, center). The system supports multi-face detection and offers both webcam-based video input and static image analysis.
+
 ## Features
 
 ### Main Features (Real-Time via main.py)
@@ -33,12 +34,12 @@ This project performs real-time and static image-based face pose estimation usin
     └── README.md                # Project description 
 
 ## Requirements
--**Python3.8+**
--**OpenCV**
--**MediaPipe**
--**NumPy**
+- **Python3.8+**
+- **OpenCV**
+- **MediaPipe**
+- **NumPy**
 
-    pip install opencv-python mediapipe numpy
+        pip install opencv-python mediapipe numpy
 
 ## How to Run
 1. Install dependencies (recommend using a virtual environment):
@@ -60,13 +61,15 @@ This project performs real-time and static image-based face pose estimation usin
 
 ## DEMO video and Screenshot
 1. Webcam Demo & Screenshot (multi-face detection)
+
 Since video file size is too large, I am going to share the google drive file.
--**Webcam demo drive link**
+- **Webcam demo drive link**
 https://drive.google.com/file/d/1EcSyBbw5WhqtxZg2s6Unz2uDeIs5MBoj/view?usp=sharing
--**Webcam screenshot**
+- **Webcam screenshot**
 <img width="1391" alt="mutiface detection webver" src="https://github.com/user-attachments/assets/dfbea0a5-417a-4c1b-a680-8e7852a5e679" />
 
 3. Static image output (multi-face detection)
+
 Sample output from image_input.py showing pose and state analysis of multiple faces in a static image, with results automatically saved and labeled.
 ![test3_faces3](https://github.com/user-attachments/assets/7ea815f7-c841-4f6f-a4a3-a49179e2498e)
 
