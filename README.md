@@ -71,7 +71,7 @@ https://drive.google.com/file/d/1EcSyBbw5WhqtxZg2s6Unz2uDeIs5MBoj/view?usp=shari
 
 **2. Static image output (multi-face detection)**
 
-Sample output from image_input.py showing pose and state analysis of multiple faces in a static image, with results automatically saved and labeled.
+Output of test3.jpg from image_input.py showing pose and state analysis of multiple faces in a static image, with results automatically saved and labeled.
 ![test3_faces3](https://github.com/user-attachments/assets/7ea815f7-c841-4f6f-a4a3-a49179e2498e)
 
 ## Notes
