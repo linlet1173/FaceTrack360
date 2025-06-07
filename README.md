@@ -49,18 +49,19 @@ This project performs real-time and static image-based face pose estimation usin
 2. For live camera tracking:
 
        python main.py
-- Press SPACE to start/stop recording
-- Press ESC to exit
+    - Press SPACE to start/stop recording
+    - Press ESC to exit
 
 3. For static image analysis:
-- Firstly, place the image file (e.g., test1.jpg) in the root directory
-- Set the filename in image_input.py
-- Run:
+    - Firstly, place the image file (e.g., test1.jpg) in the root directory
+    - Set the filename in image_input.py
+    - Run:
 
-       python image_input.py
+          python image_input.py
+
 
 ## DEMO video and Screenshot
-1. Webcam Demo & Screenshot (multi-face detection)
+**1. Webcam Demo & Screenshot (multi-face detection)**
 
 Since video file size is too large, I am going to share the google drive file.
 - **Webcam demo drive link**
@@ -68,7 +69,7 @@ https://drive.google.com/file/d/1EcSyBbw5WhqtxZg2s6Unz2uDeIs5MBoj/view?usp=shari
 - **Webcam screenshot**
 <img width="1391" alt="mutiface detection webver" src="https://github.com/user-attachments/assets/dfbea0a5-417a-4c1b-a680-8e7852a5e679" />
 
-3. Static image output (multi-face detection)
+**2. Static image output (multi-face detection)**
 
 Sample output from image_input.py showing pose and state analysis of multiple faces in a static image, with results automatically saved and labeled.
 ![test3_faces3](https://github.com/user-attachments/assets/7ea815f7-c841-4f6f-a4a3-a49179e2498e)
