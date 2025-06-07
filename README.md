@@ -7,9 +7,10 @@ FaceTrack360 is a real-time computer vision system that detects multiple faces f
 ## Features
 
 ### Main Features (Real-Time via main.py)
-~ Webcam-based live face tracking
-~ 3D face pose estimation (Yaw, Pitch, Roll)
-~ Eye state detection (based on Eye Aspect Ratio)
+
+Webcam-based live face tracking
+3D face pose estimation (Yaw, Pitch, Roll)
+Eye state detection (based on Eye Aspect Ratio)
 ~ Mouth state detection (based on lip distance)
 ~ Gaze direction estimation (Left, Center, Right)
 ~ Start/Stop video recording with Spacebar
