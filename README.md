@@ -34,10 +34,10 @@ FaceTrack360 is a real-time computer vision system that detects multiple faces f
     └── README.md                # Project description 
 
 ## Requirements
-Python 3.8+
-OpenCV
-MediaPipe
-NumPy
+**Python3.8+**
+**OpenCV**
+**MediaPipe**
+**NumPy**
 
     pip install opencv-python mediapipe numpy
 
@@ -62,19 +62,20 @@ NumPy
 ## DEMO video and Screenshot
 1. Webcam Demo & Screenshot (multi-face detection)
 Since video file size is too large, I am going to share the google drive file.
-Webcam demo drive link - https://drive.google.com/file/d/1EcSyBbw5WhqtxZg2s6Unz2uDeIs5MBoj/view?usp=sharing
-Webcam screenshot
+**Webcam demo drive link**
+https://drive.google.com/file/d/1EcSyBbw5WhqtxZg2s6Unz2uDeIs5MBoj/view?usp=sharing
+**Webcam screenshot**
 <img width="1391" alt="mutiface detection webver" src="https://github.com/user-attachments/assets/dfbea0a5-417a-4c1b-a680-8e7852a5e679" />
 
-2. Static image output (multi-face detection)
-   Sample output from image_input.py showing pose and state analysis of multiple faces in a static image, with results automatically saved and labeled.
+3. Static image output (multi-face detection)
+Sample output from image_input.py showing pose and state analysis of multiple faces in a static image, with results automatically saved and labeled.
 ![test3_faces3](https://github.com/user-attachments/assets/7ea815f7-c841-4f6f-a4a3-a49179e2498e)
 
 ## Notes
-~ Works best in well-lit environments
-~ Uses MediaPipe FaceMesh with refined landmarks for improved iris and lip detection
-~ Gaze and eye/mouth state are estimated heuristically and may vary based on pose and resolution.
-~ Labels dynamically positioned to avoid overlap on the side of the frame
+- Works best in well-lit environments
+- Uses MediaPipe FaceMesh with refined landmarks for improved iris and lip detection
+- Gaze and eye/mouth state are estimated heuristically and may vary based on pose and resolution.
+- Labels dynamically positioned to avoid overlap on the side of the frame
 
 ## License
 This project is open-source and free to use for academic or research purposes. License: MIT
